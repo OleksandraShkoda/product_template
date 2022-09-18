@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Open+Sans:wght@600&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+/*
+font-family: 'Baloo 2', cursive;
+font-family: 'Open Sans', sans-serif; 
+font-family: 'PT Sans', sans-serif;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-color: #3c3731;
+    --subtitle-color: #958b7e;
+    --price-text-color: #ed6536;
+    --button-text-color: #45c1c7;
+    --button-bg-color: #b2e7ea;
+    --button-text-color-hover: #eb653e;
+    --button-bg-color-hover: #ffe6d5;
+    --light-bg-color: #faf4f2;
+    --status-product:#61A854;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.titles {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--title-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (min-width: 320px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+.bone-icon {
+    height: 32px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.button {
+    padding: 16px 28px;
+    border-radius: 25px;
+    font-size: 16.5px;
+    font-weight: 700;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: inherit;
+    line-height: 1em;
+    letter-spacing: .05em;
+}
+
+.button:hover {
+    background-color: var(--button-bg-color-hover);
+    color: var(--button-text-color-hover);
+}
