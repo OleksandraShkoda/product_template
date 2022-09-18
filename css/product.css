@@ -80,7 +80,7 @@
 .order_line {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
 
@@ -106,6 +106,7 @@
     margin-top: 24px;
     background-color: var(--button-bg-color-hover);
     color: var(--button-text-color-hover);
+    flex-grow: 3;
 }
 
 .add_to_card_btn:hover {
@@ -136,3 +137,4 @@
     color: var(--subtitle-color);
     line-height: 1.5;
 }
+
