@@ -21,13 +21,16 @@
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 16px;
 }
-
+.product_main_photo_nav{
+ display: flex;
+flex-direction: row;
+}
 .arrow {
-    justify-self: center;
-    margin: -20px 0px 0px;
+    display:block;
+    margin: 190px 0px 0px;
     cursor: pointer;
 }
 
@@ -44,7 +47,8 @@
     width: 33px;
     border: 1px black;
     cursor: pointer;
-    display: block;
+    display: flex;
+    align-self: flex-start;
 }
 
 .status {
