@@ -1,6 +1,7 @@
-.link_to_homepage{
-margin: 20px;
+.link_to_homepage {
+    margin: 20px;
 }
+
 .main-info_product_container {
     display: flex;
     flex-direction: column;
@@ -24,15 +25,18 @@ margin: 20px;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin-bottom: 16px;
 }
-.product_main_photo_nav{
- display: flex;
-flex-direction: row;
+
+.product_main_photo_nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px;
 }
+
 .arrow {
-    display:block;
+    display: block;
     margin: 190px 0px 0px;
     cursor: pointer;
 }
@@ -51,26 +55,25 @@ flex-direction: row;
     border: 1px black;
     cursor: pointer;
     display: flex;
-    align-self: flex-start ;
+    align-self: flex-start;
 }
 
-.product_info_and_price_container{
+.product_info_and_price_container {
     margin: 0px 15px;
 }
+
 .status {
-    font-weight: 17px;
-    font-family: 'PT Sans', sans-serif;
+    font:17px 'PT Sans', sans-serif;
     color: var(--status-product);
     font-style: normal;
 }
 
 .product_name {
-    font-family: 'Baloo 2', cursive;
-    font-weight: 22px;
+    font: 22px 'Baloo 2', cursive;
 }
 
 .product_code {
-    font:  14px 'Open Sans', sans-serif;
+    font: 14px 'Open Sans', sans-serif;
     color: var(--subtitle-color);
     margin: 8px 0px 0px;
     width: 275px;
@@ -93,10 +96,10 @@ flex-direction: row;
 }
 
 .change_number {
-     display: flex;
-     justify-content: center;
-     margin-top: 24px;
-     margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-right: 16px;
     padding: 8px 12px;
     width: 35px;
     height: 22px;
@@ -131,7 +134,7 @@ flex-direction: row;
     padding: 0px 10px 10px;
     width: 90px;
     height: 26px;
-    margin-top:16px ;
+    margin-top: 16px;
 }
 
 .tablink:hover {
@@ -144,22 +147,25 @@ flex-direction: row;
     line-height: 1.5;
 }
 
-@media(min-width:769px){
-    .main-info_product_container{
+@media(min-width:769px) {
+    .main-info_product_container {
         display: flex;
         flex-direction: row;
         margin: 0px 118px;
     }
+
     .img_product_main_photo_nav {
-        margin-left :50px; 
-       }
-    .product_big_img{
+        margin-left: 50px;
+    }
+
+    .product_big_img {
         min-width: 267px;
         max-width: 427.5px;
     }
-    .product_info_and_price_container{
-     max-width: 570px;
+
+    .product_info_and_price_container {
+        max-width: 570px;
         max-height: 560px;
-        margin: 15px auto; 
+        margin: 15px auto;
     }
 }
