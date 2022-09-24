@@ -23,3 +23,8 @@ function move (position, roll) {
     return(+flower1%2 !== +flower2%2)?true:false;
   }
 
+// 24.09.2022 https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+
+class SmallestIntegerFinder {
+  findSmallestInt = args => Math.min(...args);
+  }
