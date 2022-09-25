@@ -28,3 +28,5 @@ function move (position, roll) {
 class SmallestIntegerFinder {
   findSmallestInt = args => Math.min(...args);
   }
+
+ const circleCircumference = circle => 2 * Math.PI *circle.radius;
