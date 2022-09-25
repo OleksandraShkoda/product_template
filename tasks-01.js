@@ -23,10 +23,11 @@ function move (position, roll) {
     return(+flower1%2 !== +flower2%2)?true:false;
   }
 
-// 24.09.2022 https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+// 24.09.2022 1)https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
 
 class SmallestIntegerFinder {
   findSmallestInt = args => Math.min(...args);
   }
 
+//2)https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
  const circleCircumference = circle => 2 * Math.PI *circle.radius;
